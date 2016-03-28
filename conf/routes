@@ -2,8 +2,6 @@
 # This file defines all application routes (Higher priority routes first)
 # ~~~~
 
-# Default home page
-GET        /application         controllers.Application.index
 # Angular home page
 GET        /                    controllers.Index.index
 
